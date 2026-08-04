@@ -238,6 +238,49 @@
       max-width: 480px;
     }
 
+
+    .leadership-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 28px;
+    }
+    .leader-card {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 30px;
+      align-items: center;
+      padding: 24px;
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 24px;
+      background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.012));
+    }
+    .leader-photo {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 18px;
+      display: block;
+      filter: saturate(.92) contrast(1.02);
+    }
+    .leader-role {
+      color: var(--pink-soft);
+      font-size: 11px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .leader-name {
+      margin: 0 0 14px;
+      font-size: 30px;
+      font-weight: 520;
+      letter-spacing: -.025em;
+    }
+    .leader-bio {
+      margin: 0;
+      color: #aaa3a7;
+      font-size: 15px;
+    }
+
     .contact-panel {
       padding: 54px;
       border: 1px solid rgba(255,255,255,.09);
@@ -297,11 +340,56 @@
       .hero-grid,
       .section-head,
       .about-grid,
-      .contact-panel {
+  
+    .leadership-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 28px;
+    }
+    .leader-card {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 30px;
+      align-items: center;
+      padding: 24px;
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 24px;
+      background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.012));
+    }
+    .leader-photo {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 18px;
+      display: block;
+      filter: saturate(.92) contrast(1.02);
+    }
+    .leader-role {
+      color: var(--pink-soft);
+      font-size: 11px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .leader-name {
+      margin: 0 0 14px;
+      font-size: 30px;
+      font-weight: 520;
+      letter-spacing: -.025em;
+    }
+    .leader-bio {
+      margin: 0;
+      color: #aaa3a7;
+      font-size: 15px;
+    }
+
+    .contact-panel {
         grid-template-columns: 1fr;
         gap: 34px;
       }
-      .services { grid-template-columns: 1fr; }
+      .services,
+      .leadership-grid { grid-template-columns: 1fr; }
+      .leader-card { grid-template-columns: 150px 1fr; }
       .service,
       .service:nth-child(odd),
       .service:nth-child(even) {
@@ -311,7 +399,50 @@
       }
       .logo-lockup { width: 100%; }
       section { padding: 76px 0; }
-      .contact-panel { padding: 32px 24px; }
+  
+    .leadership-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 28px;
+    }
+    .leader-card {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 30px;
+      align-items: center;
+      padding: 24px;
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 24px;
+      background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.012));
+    }
+    .leader-photo {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 18px;
+      display: block;
+      filter: saturate(.92) contrast(1.02);
+    }
+    .leader-role {
+      color: var(--pink-soft);
+      font-size: 11px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .leader-name {
+      margin: 0 0 14px;
+      font-size: 30px;
+      font-weight: 520;
+      letter-spacing: -.025em;
+    }
+    .leader-bio {
+      margin: 0;
+      color: #aaa3a7;
+      font-size: 15px;
+    }
+
+    .contact-panel { padding: 32px 24px; }
     }
   </style>
 </head>
@@ -322,6 +453,7 @@
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#leadership">Leadership</a>
         <a href="#markets">Markets</a>
         <a href="#contact">Contact</a>
       </div>
@@ -410,6 +542,44 @@
             <div class="service-index">05</div>
             <h3>Commercial Partnerships & Project Operations</h3>
             <p>Partnership architecture, stakeholder integration and practical operating support from concept to delivery.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="leadership">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-label">Leadership</div>
+          <h2 class="section-title">Built by people who understand culture, markets and execution.</h2>
+        </div>
+
+        <div class="leadership-grid">
+          <article class="leader-card">
+            <img class="leader-photo" src="assets/dy-wang.jpg" alt="D.Y.Wang" />
+            <div>
+              <div class="leader-role">Founder & Managing Director</div>
+              <h3 class="leader-name">D.Y.Wang</h3>
+              <p class="leader-bio">
+                D.Y.Wang leads EGMedia with a cross-disciplinary background spanning integrated marketing,
+                destination entertainment, live events, cultural IP and international business development
+                across Greater China and Southeast Asia.
+              </p>
+            </div>
+          </article>
+
+          <article class="leader-card">
+            <img class="leader-photo" src="assets/vivi-he.jpg" alt="Vivi He" />
+            <div>
+              <div class="leader-role">Co-Founder & Partnerships Director</div>
+              <h3 class="leader-name">Vivi He</h3>
+              <p class="leader-bio">
+                Vivi He leads partnerships and market development, focusing on premium lifestyle,
+                brand collaborations and cross-border opportunities across entertainment,
+                hospitality and cultural experiences.
+              </p>
+            </div>
           </article>
         </div>
       </div>
