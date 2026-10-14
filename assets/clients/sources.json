@@ -50,14 +50,15 @@
     "source": "https://www.ihhhealthcare.com/images/ihhmylibraries/co-branding/gleneagles-02.webp"
   },
   "qq-music": {
-    "file": "qq-music.png",
-    "asset_url": "https://ows-prod-1253428821.file.myqcloud.com/ows/QQ%E9%9F%B3%E4%B9%90_%E8%8B%B1%E6%96%87d66c2d4131f4e8ca69ea5c4fd580efea.png",
-    "source": "https://ows-prod-1253428821.file.myqcloud.com/ows/QQ%E9%9F%B3%E4%B9%90_%E8%8B%B1%E6%96%87d66c2d4131f4e8ca69ea5c4fd580efea.png"
+    "file": "qq-music-cn.png",
+    "source": "https://y.qq.com/",
+    "asset_url": "https://y.qq.com/mediastyle/yqq/img/logo.png?max_age=2592000",
+    "method": "Official complete Chinese header logo, unchanged original PNG"
   },
   "byd": {
-    "file": "byd.svg",
-    "asset_url": "https://www.byd.com/static_material/byd/overseas/public-icon/logo.svg",
-    "source": "https://www.byd.com/static_material/byd/overseas/public-icon/logo.svg"
+    "file": "byd-positive.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:BYD_Auto_2022_logo.svg",
+    "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/BYD_Auto_2022_logo.svg"
   },
   "porsche": {
     "file": "porsche.svg",
@@ -65,9 +66,9 @@
     "method": "Unchanged inline official SVG paths"
   },
   "chagee": {
-    "file": "chagee.svg",
-    "source": "https://chagee.com.sg/en",
-    "method": "Original header logo SVG id=svg1, unchanged"
+    "file": "chagee-cn.svg",
+    "source": "https://chagee.com/",
+    "method": "Unchanged inline Chinese official header SVG; original red emblem and brand-name paths"
   },
   "bytedance": {
     "file": "bytedance.svg",
@@ -81,13 +82,16 @@
   },
   "bmw": {
     "file": "bmw.svg",
-    "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
-    "source": "https://en.wikipedia.org/wiki/BMW"
+    "source": "https://www.bmwusa.com/",
+    "asset_url": "https://www.bmwusa.com/content/dam/bmw/marketUS/common/images/logo-icons/BMW/BMW_Grey_Logo.svg.asset.1695740583799.svg",
+    "method": "Official current grey-ring, blue-white flat communication SVG"
   },
   "pepsi": {
     "file": "pepsi.svg",
     "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pepsi_2023.svg",
-    "source": "https://en.wikipedia.org/wiki/Pepsi"
+    "source": "https://en.wikipedia.org/wiki/Pepsi",
+    "verified_against": "https://digitalassets.pepsico.com/transform/47a5ae69-928c-44bd-b3cf-eab35bdc943e/pepsi-logo-fullcolor-RGB?q=75&w=3840",
+    "verification_source": "https://www.pepsico.com/en/media"
   },
   "mercedes": {
     "file": "mercedes.png",
