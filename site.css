@@ -389,3 +389,6 @@ p{font-size:18px;line-height:1.75}.eyebrow,.status-label,.hero-signature,.photo-
 @media(max-width:900px){.experience-grid{grid-template-columns:1fr}}
 @media(max-width:700px){p,.team-card p,.work-card p,.process-grid p,.cap-panel-copy p{font-size:18px}.team-card .role{min-height:0}.hero-actions{flex-wrap:wrap}.hero-actions .button,.quiet-link,.work-section .section-heading>.button,.closing .button,.cap-panel-copy .text-link{font-size:16px}.photo-caption{right:20px}.slide-hint{max-width:150px}.capability-ribbon{font-size:16px}.region-selector button{font-size:17px}.experience-grid h3{font-size:26px}.team-card h3{font-size:23px}}
 footer,footer a{font-size:16px}
+/* Compact portraits with their original image proportions preserved. */
+.founder-photo{width:100%;max-width:280px;aspect-ratio:auto;align-self:start}.founder-photo img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}.team-card img{display:block;width:auto;max-width:100%;height:auto;max-height:240px;aspect-ratio:auto;object-fit:contain;margin-bottom:24px}.team-card{min-width:0}
+@media(max-width:700px){.founder-photo{max-width:210px;margin-bottom:28px}.team-card img{max-height:190px;margin-bottom:20px}}
