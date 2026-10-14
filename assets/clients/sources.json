@@ -1,0 +1,112 @@
+{
+  "tencent": {
+    "file": "tencent.png",
+    "asset_url": "https://www.tencent.com/wp-content/uploads/2024/05/logo@2x-en.png",
+    "source": "https://www.tencent.com/wp-content/uploads/2024/05/logo@2x-en.png"
+  },
+  "oppo": {
+    "file": "oppo.png",
+    "asset_url": "https://www.oppo.com/content/dam/oppo/common/file/image/logo.png",
+    "source": "https://www.oppo.com/content/dam/oppo/common/file/image/logo.png"
+  },
+  "chloe": {
+    "file": "chloe.svg",
+    "asset_url": "https://www.chloe.com/on/demandware.static/Sites-ChloeUS-Site/-/default/dw3a5f2310/images/brand-logo.svg",
+    "source": "https://www.chloe.com/on/demandware.static/Sites-ChloeUS-Site/-/default/dw3a5f2310/images/brand-logo.svg"
+  },
+  "miracle": {
+    "file": "miracle.svg",
+    "asset_url": "https://qijishan.oss-cn-hangzhou.aliyuncs.com/gw/home/logo.svg",
+    "source": "https://qijishan.oss-cn-hangzhou.aliyuncs.com/gw/home/logo.svg"
+  },
+  "tme": {
+    "file": "tme.png",
+    "asset_url": "https://www.tencentmusic.com/img/tme-blue.cafd93f9.png",
+    "source": "https://www.tencentmusic.com/img/tme-blue.cafd93f9.png"
+  },
+  "fantawild": {
+    "file": "fantawild.jpg",
+    "asset_url": "https://www.fantawild.com/images/fantawild2016/logo.jpg",
+    "source": "https://www.fantawild.com/images/fantawild2016/logo.jpg"
+  },
+  "tme-name": {
+    "file": "tme-name.png",
+    "asset_url": "https://www.tencentmusic.com/img/header-en-txt.b333bdbd.png",
+    "source": "https://www.tencentmusic.com/img/header-en-txt.b333bdbd.png"
+  },
+  "wuyou": {
+    "file": "wuyou.png",
+    "asset_url": "https://www.wuyou.com/_nuxt/logo_active.BiwMrH6p.png",
+    "source": "https://www.wuyou.com/_nuxt/logo_active.BiwMrH6p.png"
+  },
+  "ost": {
+    "file": "ost.png",
+    "asset_url": "https://www.ostmcn.com/static/images/logo.png",
+    "source": "https://www.ostmcn.com/static/images/logo.png"
+  },
+  "gleneagles": {
+    "file": "gleneagles.webp",
+    "asset_url": "https://www.ihhhealthcare.com/images/ihhmylibraries/co-branding/gleneagles-02.webp",
+    "source": "https://www.ihhhealthcare.com/images/ihhmylibraries/co-branding/gleneagles-02.webp"
+  },
+  "qq-music": {
+    "file": "qq-music.png",
+    "asset_url": "https://ows-prod-1253428821.file.myqcloud.com/ows/QQ%E9%9F%B3%E4%B9%90_%E8%8B%B1%E6%96%87d66c2d4131f4e8ca69ea5c4fd580efea.png",
+    "source": "https://ows-prod-1253428821.file.myqcloud.com/ows/QQ%E9%9F%B3%E4%B9%90_%E8%8B%B1%E6%96%87d66c2d4131f4e8ca69ea5c4fd580efea.png"
+  },
+  "byd": {
+    "file": "byd.svg",
+    "asset_url": "https://www.byd.com/static_material/byd/overseas/public-icon/logo.svg",
+    "source": "https://www.byd.com/static_material/byd/overseas/public-icon/logo.svg"
+  },
+  "porsche": {
+    "file": "porsche.svg",
+    "source": "https://www.porsche.com/taiwan/en/?cs_redirect=1",
+    "method": "Unchanged inline official SVG paths"
+  },
+  "chagee": {
+    "file": "chagee.svg",
+    "source": "https://chagee.com.sg/en",
+    "method": "Original header logo SVG id=svg1, unchanged"
+  },
+  "bytedance": {
+    "file": "bytedance.svg",
+    "source": "https://www.bytedance.com/en/",
+    "method": "official inline base64 SVG"
+  },
+  "coach": {
+    "file": "coach.svg",
+    "asset_url": "https://upload.wikimedia.org/wikipedia/en/5/50/Coach_New_York_logo.svg",
+    "source": "https://en.wikipedia.org/wiki/Coach_New_York"
+  },
+  "bmw": {
+    "file": "bmw.png",
+    "source": "E.GENE MEDIA ChengDu201905简介.pptx slide 3 image7.png",
+    "method": "Original brand roundel from company source, not BMW Group corporate mark"
+  },
+  "pepsi": {
+    "file": "pepsi.svg",
+    "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pepsi_2023.svg",
+    "source": "https://en.wikipedia.org/wiki/Pepsi"
+  },
+  "mercedes": {
+    "file": "mercedes.png",
+    "source": "E.GENE MEDIA ChengDu201905简介.pptx slide 3 embedded image28.png",
+    "method": "Original embedded logo, unchanged"
+  },
+  "feibo": {
+    "file": "feibo.svg",
+    "asset_url": "https://www.feibo.cn/logo.svg",
+    "source": "https://www.feibo.cn/home/"
+  },
+  "douyin": {
+    "file": "douyin.svg",
+    "asset_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ulkphgeh7nuvspognuhbo/douyin_web/img/images/logo-horizontal.svg",
+    "source": "https://www.douyin.com/"
+  },
+  "hktdc": {
+    "file": "hktdc.png",
+    "source": "https://aboutus.hktdc.com/global-network/sc/all-offices.pdf",
+    "method": "Original embedded official footer image10, logo crop [0,0,158,112]"
+  }
+}
