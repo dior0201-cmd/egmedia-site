@@ -80,9 +80,9 @@
     "source": "https://en.wikipedia.org/wiki/Coach_New_York"
   },
   "bmw": {
-    "file": "bmw.png",
-    "source": "E.GENE MEDIA ChengDu201905简介.pptx slide 3 image7.png",
-    "method": "Original brand roundel from company source, not BMW Group corporate mark"
+    "file": "bmw.svg",
+    "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
+    "source": "https://en.wikipedia.org/wiki/BMW"
   },
   "pepsi": {
     "file": "pepsi.svg",
@@ -108,5 +108,10 @@
     "file": "hktdc.png",
     "source": "https://aboutus.hktdc.com/global-network/sc/all-offices.pdf",
     "method": "Original embedded official footer image10, logo crop [0,0,158,112]"
+  },
+  "oct": {
+    "file": "oct.jpg",
+    "asset_url": "https://www.chinaoct.com/hqc/template/common/head/logo.jpg",
+    "source": "https://www.chinaoct.com/"
   }
 }
