@@ -90,5 +90,9 @@
   "oct": {
     "file": "oct.jpg",
     "source": "https://www.chinaoct.com/"
+  },
+  "jd": {
+    "file": "jd.svg",
+    "source": "https://jdrdl.jd.com/Brand-Logo.html"
   }
 }
